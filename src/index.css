@@ -1,0 +1,29 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+
+body {
+  background-color: white;
+}
+
+.app{
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+
+.game{
+  width: 560px;
+  height: 560px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 2rem 0 5rem 0;
+}
+
+.game img{
+  width: 70px;
+  height: 70px;
+}
